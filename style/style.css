@@ -75,6 +75,7 @@ top: 0px;
   height: auto;
   margin: 20px auto 0;
   overflow: hidden;
+  animation: slide 15s infinite;
 }
 
 .slider-frame ul
