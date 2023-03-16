@@ -193,16 +193,11 @@ top: 0px;
 /*------------------------------------------------------------------------------------------------*/
 .image-section
 {
-  margin: 0;
-  top: 0;
-  left: 0;
-  list-style: none;
-  z-index: 9999;
-  padding: 0;
+  transform-style:preserve-3d;
+  position: relative;
   height: 100vh;
   display: flex;
-  background-color: #1e1e1e;
-  width: 100%;
+  color:black; 
 }
 .image-wrapper
 {
