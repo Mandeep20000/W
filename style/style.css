@@ -159,14 +159,14 @@ top: 0px;
 }
 .nav-auto div
 {
-  border: 2px solid #e5e5e5;
-  padding: 5px;
-  border-radius: 10px;
+  border: 0px solid #e5e5e5;
+  padding: 0px;
+  border-radius: 0px;
   transition: 1s;
 }
 .nav-auto div:not(:last-child)
 {
-  margin-right: 40px;
+  margin-right: 0px;
 }
 #radio1:checked ~ .nav-auto .auto-btn1
 {
