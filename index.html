@@ -9,38 +9,32 @@
     <title>WEB 1er A Batxillerat</title>
 </head>
 <body>
-
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inici</a></li>
+      <li><a href="presentacio.html">Presentació</a></li>
+      <li><a href="exercicis.html">Exercicis</a></li>
+      <li><a href="creació de la web.html">Creació de la Web</a></li>
+      <li><a href="videojocs.html">Videojocs</a></li>
+      <li><a href="arcodi.html">Artcodi</a></li>
+    </ul>
+  </nav>
+</header>
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
 <main>
 
-  
-    <section class="menu">
-        <ul class="nav">
-            
-            <li><a href="index.html">Inici</a></li>
-          
-            <li><a href="presentacio.html">Presentació</a></li>
-        
-            <li><a href="exercicis.html">Exercicis</a></li>
-            
-            <li><a href="creació de la web.html">Creació de la Web</a></li>
-        
-            <li><a href="videojocs.html">Videojocs</a></li>
-    
-            <li><a href="arcodi.html">Artcodi</a></li>
-            
-        </ul>
-    </section>
-   
-
     <section class="sliderPrime">
-
         <div class="slider">
           <div class="slides">
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
             <input type="radio" name="radio-btn" id="radio4">
-      
+
             <div class="slide first">
               <img src="tian.jpg" alt="">
             </div>
@@ -73,14 +67,14 @@
         </div>
       
       </section>
-
-
-      <section class="image-section">
-        <div class="image-wrapper">
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+      <section id="photos">
+        <div class="photos-container">
 
           <div class="image-container">
             <a href="presentacio.html">
-              <img src="https://www.masqueredes.es/wp-content/uploads/2016/06/google-plus-presentacion.jpg" alt="Imagen 1">
+              <img src="https://www.masqueredes.es/wp-content/uploads/2016/06/google-plus-presentacion.jpg" class="photo-item" onmouseover="animatePhoto(this)" onmouseout="stopAnimatePhoto(this)">
               <div class="overlay">
                 <div class="text">PRESENTACIÓ</div>
               </div>
@@ -89,7 +83,7 @@
 
           <div class="image-container">
             <a href="exercicis.html">
-              <img src="https://pranx.com/hacker/og.jpg" alt="Imagen 2">
+              <img src="https://pranx.com/hacker/og.jpg" class="photo-item" onmouseover="animatePhoto(this)" onmouseout="stopAnimatePhoto(this)">
               <div class="overlay">
                 <div class="text">EXERCICIS</div>
               </div>
@@ -98,7 +92,7 @@
 
           <div class="image-container">
             <a href="creació de la web.html">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAewaOXiOTJj4b30-lH0aPv2PxIZYidbrhwZtLvmCYp1SH_zZu1DjZyuGYn-0r0Vgdn9M&usqp=CAU" alt="Imagen 3">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAewaOXiOTJj4b30-lH0aPv2PxIZYidbrhwZtLvmCYp1SH_zZu1DjZyuGYn-0r0Vgdn9M&usqp=CAU" class="photo-item" onmouseover="animatePhoto(this)" onmouseout="stopAnimatePhoto(this)">
               <div class="overlay">
                 <div class="text">CREACIÓ DE LA WEB</div>
               </div>
@@ -107,7 +101,7 @@
 
           <div class="image-container">
             <a href="videojocs.html">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWASTm27xcPdg7pnBcLNafeZo29BSbXWsbepsid7rnSo4ZCyxkOHBuTeR9ZLqbSrNe_8&usqp=CAU" alt="Imagen 4">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoWASTm27xcPdg7pnBcLNafeZo29BSbXWsbepsid7rnSo4ZCyxkOHBuTeR9ZLqbSrNe_8&usqp=CAU" class="photo-item" onmouseover="animatePhoto(this)" onmouseout="stopAnimatePhoto(this)">
               <div class="overlay">
                 <div class="text">VIDEOJOCS</div>
               </div>
@@ -116,7 +110,7 @@
 
           <div class="image-container">
             <a href="arcodi.html">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS77PaMkXbGX5n055x_WDHOOGO-qFYXlpiBbVWHz_uoF-OkJU_eSm2wyYTkuXDu3hukS5c&usqp=CAU" alt="Imagen 5">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS77PaMkXbGX5n055x_WDHOOGO-qFYXlpiBbVWHz_uoF-OkJU_eSm2wyYTkuXDu3hukS5c&usqp=CAU" class="photo-item" onmouseover="animatePhoto(this)" onmouseout="stopAnimatePhoto(this)">
               <div class="overlay">
                 <div class="text">ARTCODI</div>
               </div>
@@ -125,8 +119,8 @@
 
         </div>
       </section>
-
-      
+<!--------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------------------------------------------------------------------------------------------------------------->
 </main>
 
 
