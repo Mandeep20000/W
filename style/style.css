@@ -54,15 +54,14 @@ padding: 10px;
 }
 .slider
 {
-  width: 1000px;
-  height: 500px;
-  border-radius: 15px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 .slides
 {
   width: 500%;
-  height: 500px;
+  height: 100%;
   display: flex;
 }
 .slides input
@@ -76,8 +75,8 @@ padding: 10px;
 }
 .slide img
 {
-  width: 1000px;
-  height: 500px;
+  width: 100%;
+  height: 100%px;
   object-fit: cover;
 }
 .nav-manual
