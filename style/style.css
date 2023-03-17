@@ -50,36 +50,35 @@ padding: 10px;
   align-items: center;
   justify-content: center;
   background-color: #ccc;
-  position: relative;
+  p
 }
-.sliderPrime .slider
+.slider
 {
-  width: 100%;
-  height: 100%;
+  width: 1000px;
+  height: 500px;
+  border-radius: 15px;
   overflow: hidden;
 }
-.sliderPrime .slides
+.slides
 {
   width: 500%;
-  height: 100%;
+  height: 500px;
   display: flex;
 }
 .slides input
 {
   display: none;
 }
-.sliderPrime .slide
+.slide
 {
   width: 20%;
   transition: 2s;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-.sliderPrime .slide-img
+.slide img
 {
-  width: 100%;
-  height: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
 }
 .nav-manual
 {
