@@ -163,6 +163,7 @@ padding: 10px;
 .image-wrapper
   {
     display: flex;
+    margin: 60px;
   }
   .image-container 
   {
